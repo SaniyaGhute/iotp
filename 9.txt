@@ -1,0 +1,23 @@
+Pin 6 GND
+Pin 2 VCC
+Pin 3 SDA
+Pin 5 SCL
+
+9.1
+Command 1: sudo raspi-config (enable i2c)
+Command 2: pip3 install adafruit-circuitpython-pn532 --break-system-packages
+
+9.4
+Command 1: sudo raspi-config (enable i2c)
+Command 2: sudo reboot
+Command 3: pip3 install adafruit-circuitpython-pn532 --break-system-packages
+Command 3: sudo apt install -y libnfc-bin libnfc-dev libusb-dev libpcsclite-dev i2c-tools
+Command 4: sudo nano /etc/nfc/libnfc.conf
+
+Edit the code:allow_autoscan = false
+device.name = "PN532 over I2C"
+device.connstring = "pn532_i2c:/dev/i2c-1"
+
+Save the file.
+Command 5: i2cdetect –y 1 (optional put sudo)
+Command 6: nfc-list

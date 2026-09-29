@@ -1,0 +1,5 @@
+sudo raspi-config
+sudo reboot
+libcamera-hello
+libcamera-still -o image
+libcamera-vid -o video.h264 -t 10000

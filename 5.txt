@@ -1,0 +1,42 @@
+VCC 2
+GND 6
+TX  10
+
+Step 1: Greate
+
+a virtual environment
+
+→ Installing the view module.
+
+Sudo apt install python 3-venu
+
+Greating a new vertud machine environment, myem
+
+is usen-defined name
+
+python's-muenu myenu.
+
+3) Activate the Virtual Environment
+
+Source myenv/bin/ activate
+
+(4) It should took like (myenv) pi@raspberrypi-5
+
+(If virtual environment is already created fust activate the environment)
+
+Step? Enter the following commands one by on pressing Enter after each..
+
+depuram = spi - on
+Step 3
+
+Installing minisem
+
+sudo apt-get install minicom.
+
+Stepu installing pynnpar
+
+pip install py smear brak-system- paclonges
+
+Steps sudo cat /dev/HyB0
+
+(This will min in background to stop this prestat tou will get the output the foll stepp core optional
