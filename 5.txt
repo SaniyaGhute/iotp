@@ -24,19 +24,23 @@ Source myenv/bin/ activate
 
 (If virtual environment is already created fust activate the environment)
 
-Step? Enter the following commands one by on pressing Enter after each..
+Step2 Enter the following commands one by on pressing Enter after each..
 
 depuram = spi - on
+core_freq=250
+enable_uart=1
+force_turbo=1
+
 Step 3
 
-Installing minisem
+Installing minicom
 
 sudo apt-get install minicom.
 
-Stepu installing pynnpar
+Step4 installing pynmeaz
 
-pip install py smear brak-system- paclonges
+pip install pynmeaz break-system- packages
 
 Steps sudo cat /dev/HyB0
 
-(This will min in background to stop this prestat tou will get the output the foll stepp core optional
+(This will min in background to stop this press ctrl + C you will get the output)
